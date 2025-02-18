@@ -1,0 +1,7 @@
+# Para correr (na pasta projeto-so-2):
+./kvs src/server/jobs 2 2 /tmp/fifo_registo 
+./client 1 /tmp/fifo_registo
+
+
+4 - ver OP_CODE`s no api do client
+5 - ver os MAX_CLIENTS

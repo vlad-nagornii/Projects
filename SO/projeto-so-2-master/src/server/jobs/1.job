@@ -1,0 +1,14 @@
+WRITE [(a,AA)(b,AA)(c,AA)(d,AA)]
+SHOW
+WAIT 7000
+WRITE [(a,kkkk)]
+SHOW
+WAIT 10000
+DELETE [a]
+SHOW
+BACKUP
+WAIT 10000000
+
+
+
+

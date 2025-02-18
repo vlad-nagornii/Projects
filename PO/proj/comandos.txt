@@ -1,0 +1,5 @@
+./POTests/tests1.sh 102
+
+cd hva-core/ ; make ; cd .. ; cd hva-app/ ; make ; cd .. ; export CLASSPATH=/Users/vladnagornii/Desktop/proj/102/hva-core/hva-core.jar:/Users/vladnagornii/Desktop/proj/102/hva-app/hva-app.jar:/Users/vladnagornii/Desktop/proj/po-uilib/po-uilib.jar ; java hva.app.App
+java -Dimport=/Users/vladnagornii/Desktop/proj/test.import hva.app.App
+cd hva-core/ ; make ; cd .. ; cd hva-app/ ; make ; cd .. ;
